@@ -7,8 +7,9 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
-
+  vmImage: yibeltal
+  demands: 
+  - Agent.Name -equals agent-1
 steps:
 - task: Maven@3
   inputs:
