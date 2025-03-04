@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: agent-1
+  vmImage: yibeltal
 
 steps:
 - task: Maven@3
